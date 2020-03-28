@@ -20,10 +20,10 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: `module`,
   },
-  // Personal preference overrides
+  // Personal preferences overrides for some rules from extended configs
   rules: {
     // Regular ESLint
-    'no-console': [`warn`, { allow: [`error`] }],
+    'no-console': 'off',
     'no-param-reassign': `off`,
     'no-plusplus': `off`,
     'no-unused-expressions': `off`,
