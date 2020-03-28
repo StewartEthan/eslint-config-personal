@@ -52,6 +52,7 @@ module.exports = {
     'react/prop-types': `warn`,
     'react/jsx-filename-extension': `off`,
     'react/require-default-props': `off`,
+    'react/no-unescaped-entities': `off`,
 
     'react-hooks/rules-of-hooks': `error`,
     'react-hooks/exhaustive-deps': `warn`,
