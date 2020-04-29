@@ -35,6 +35,8 @@ module.exports = {
 
     // Plugin-specific
     'babel/no-unused-expressions': [`warn`, { allowShortCircuit: true }],
+    
+    'import/prefer-default-export': `off`,
 
     'jsx-a11y/label-has-associated-control': [`error`, { assert: `either` }],
 
